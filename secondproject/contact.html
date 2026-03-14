@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        h1{
+            color: green;
+        }
+        .contact-box{
+            padding: 20px;
+            background-color:darkcyan;
+            width: 500px;
+            height: 300px;
+            border-radius: 20px;
+             box-shadow:0px 5px 22px black;
+        }
+        .contact-box textarea{
+            width: 400px;
+        }
+        .contact-box button{
+            background-color: green;
+            width: 150px;
+            height: 40px;
+        }
+        .contact-box button:hover{
+            background-color: chocolate;
+            color: rgb(233, 228, 228);
+        }
+        .contact-box p{
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <div class="contact-box">
+        <p>Help Line </p>
+        <p>Contact To <strong>040-25431652222</strong></p>
+        <label for="name">Enter Name:</label>
+        <input type="text" placeholder="Enter name">
+        <br>
+        <br>
+        <label for="email">Enter mail</label>
+        <input type="email" placeholder="Enter you mail">
+        <br><br>
+        <textarea rows="5" placeholder="Enter Your Message" required></textarea>
+        <br>
+        <button  type="submit">Send Message</button>
+        
+
+    </div>
+</body>
+</html>
